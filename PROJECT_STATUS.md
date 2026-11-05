@@ -235,7 +235,7 @@ harness render Matthew_23-8-12
 
 ---
 
-**Project Lead**: Michael Howard  
+**Project Lead**: the harness designer (credits in README)  
 **Analyst**: Peaches (🍑)  
 **Next Review**: After Hebrew support phase
 
@@ -245,4 +245,4 @@ harness render Matthew_23-8-12
   - 9/12: Genesis 11:11-20 (runs/Genesis_11-11-20)
   - 9/13: Genesis 11:21-30 (runs/Genesis_11-21-30)
 - **Progress cursor:** Genesis 11:30 / total_done 554 → tonight's 00:00Z run auto-computes **Genesis 11:31-40** (progress-driven; queue-label concern dissolved).
-- **Parked-draft integrity (bible-journey-harness, Michael's standing instruction):** 03-02 (mtime 8/31), 03-13 (9/6), 03-14 (9/7), 03-15 (9/8) — ALL UNTOUCHED ✅. New draft 03-21 (Matthew 6:4) created 9/13 08:14 ET, status=pending approval in #bible-journey-approval.
+- **Parked-draft integrity (bible-journey-harness, standing directive):** 03-02 (mtime 8/31), 03-13 (9/6), 03-14 (9/7), 03-15 (9/8) — ALL UNTOUCHED ✅. New draft 03-21 (Matthew 6:4) created 9/13 08:14 ET, status=pending approval in #bible-journey-approval.

@@ -2,7 +2,7 @@
 
 **Status:** Proposed — ready for OpenCode integration
 **Date:** 2026-09-14
-**Origin:** Drafted after the Genesis 6:2 audit (laqach/nashim overreach). Michael directed a new safeguard layer so the harness stops stretching past what the text licenses.
+**Origin:** Drafted after the Genesis 6:2 audit exposed an overreach gap.
 **Scope:** 4K Bible Translation Harness — all analysis runs (OT Hebrew and NT Greek)
 
 ---

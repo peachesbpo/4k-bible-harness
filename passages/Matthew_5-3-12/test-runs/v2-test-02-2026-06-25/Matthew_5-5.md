@@ -179,5 +179,5 @@ Notable: Matthew 11:29 has Jesus describing *himself* as meek — "I am meek and
 **Review status**: Draft — Fresh analysis with full etymology + cross-reference integration, awaiting review
 **Data sources**: fetch_verse.py --etymology + cross_references.py (Matthew 5:5)
 **Previous versions**:
-- `../Matthew_5-5.md` — v1 (2026-06-24, corrected after Michael Howard review)
+- `../Matthew_5-5.md` — v1 (2026-06-24, corrected after human review)
 - `../test-runs/v2-test-01-2026-06-25/Matthew_5-5.md` — v2-test-01 (2026-06-25, full etymology, no cross-refs)

@@ -24,7 +24,7 @@ Thus also you outwardly indeed (the Greek μὲv is a correlative conjunction me
 
 | # | Standard (ESV) | What's Lost | Why It Matters |
 |---|----------------|-------------|----------------|
-| 1 | "to others" | The Greek ἀvθrωpois (Strong's 444) literally means "to men" — dative masculine plural. "Others" is a softer, more generalized term. | "Men" is direct and confrontational. Michael is saying: you appear righteous TO MEN — to real human beings who might be deceived by your act. "Others" is abstract and impersonal by comparison. The Pharisees are deceiving actual people, not a vague concept of "others." |
+| 1 | "to others" | The Greek ἀvθrωpois (Strong's 444) literally means "to men" — dative masculine plural. "Others" is a softer, more generalized term. | "Men" is direct and confrontational. Jesus is saying: you appear righteous TO MEN — to real human beings who might be deceived by your act. "Others" is abstract and impersonal by comparison. The Pharisees are deceiving actual people, not a vague concept of "others." |
 | 2 | "but" | The Greek has the correlative μὲv...δₑ (indeed...however) structure: "outwardly indeed appear righteous...within however are full." The ESV flattens this to a simple "but." | The μὲv concedes the external appearance as real (it does look righteous), while δₑ introduces the devastating interior reality. The ESV's "but" is a weaker contrast that doesn't acknowledge the concession. The correlative structure makes the hypocrisy more vivid: yes, you look righteous — AND YET within you are corrupt. |
 | 3 | "lawlessness" | The Greek ἀvomias (Strong's 458, 15 occurrences) is a privative — ἀ-vomić = "absence of law/norm." KJV translates it as "iniquity," which is broader and less precise. | The ESV "lawlessness" is actually good here, but the privative structure adds force: this isn't just breaking rules, it's the ABSENCE of any law or norm whatsoever. The Pharisee doesn't merely violate standards — they have no standards. The privative makes the corruption more total. |
 | 4 | "Thus" → "So" | The Greek oὖtws (Strong's 3779) means "thus/in this way" — it explicitly connects back to 23:27, saying the cup/tomb metaphor NOW applies to you directly. | The ESV's "So" is weaker than "Thus." The Greek oὖtws carries the sense of "in the same way as described above" — it's a deductive bridge from metaphor to application. The Pharisee IS the whitewashed tomb of 23:27, and this verse makes that explicit. |
@@ -35,7 +35,7 @@ Thus also you outwardly indeed (the Greek μὲv is a correlative conjunction me
 
 1. **From Metaphor to Application**: The word oὖtws ("thus") is a deductive bridge. Verse 23:27 used the tomb metaphor; 23:28 says "Thus also you" — applying the metaphor directly to the Pharisees. You ARE the tombs: outwardly beautiful, within full of hypocrisy and lawlessness. The grammar transforms a comparison into an identity.
 
-2. **Righteousness as Appearance, Not Reality**: The verb φaivésθe (appear) is the same verb used in 23:27 (φaiñoτai) — the Pharisees "appear" righteous as tombs "appear" beautiful. The verb φaivw in Greek carries the sense of seeming rather than being. Michael is making a precise grammatical distinction between appearing righteous and being righteous — the entire hypocrisy charge is encoded in this verb choice.
+2. **Righteousness as Appearance, Not Reality**: The verb φaivésθe (appear) is the same verb used in 23:27 (φaiñoτai) — the Pharisees "appear" righteous as tombs "appear" beautiful. The verb φaivw in Greek carries the sense of seeming rather than being. Jesus is making a precise grammatical distinction between appearing righteous and being righteous — the entire hypocrisy charge is encoded in this verb choice.
 
 3. **Hypocrisy and Lawlessness as Paired Privatives**: ὑpoκrisewσ (hypocrisy, Strong's 5272) and ἀvomias (lawlessness, Strong's 458) form a paired charge. Hypocrisy is the deception of answering from a hidden position; lawlessness is the absence of any norm to answer from. Together they describe someone who both deceives about their position AND has no legitimate position to begin with — a double corruption.
 
@@ -69,7 +69,7 @@ Thus also you outwardly indeed (the Greek μὲv is a correlative conjunction me
 - **oὖtws as deductive link**: The adverb oὖtws ("thus") explicitly connects 23:28 to 23:27, transforming the tomb metaphor into a direct accusation. The ESV's "So" is etymologically correct but rhetorically weaker.
 
 **Cultural/Contextual Notes**:
-- The pairing of �upokρisewσs and ἀvomias recurs in Romans 6:19 (impurity and lawlessness) — Michael consistently treats hypocrisy and lawlessness as a paired corruption
+- The pairing of �upokρisewσs and ἀvomias recurs in Romans 6:19 (impurity and lawlessness) — the analysis consistently treats hypocrisy and lawlessness as a paired corruption
 - Psalm 51:6 ("truth in the inward parts") and Hebrews 4:12-13 (the word of God is quick and powerful) parallel this inside/outside distinction
 - The phrase "to men" (ἀvθrωpois) emphasizes that the Pharisee's deception has real victims — actual human observers who are misled by the external appearance
 

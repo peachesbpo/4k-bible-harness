@@ -11,8 +11,8 @@ Mirrors greek_text.py / text_purity.py for OT verses. Two responsibilities:
 2. `decode_morph(code)` — translate the Westminster Leningrad Codex (CCAT)
    morphology schema into readable English. e.g. "HR/Ncfsa" →
    "Preposition / Noun common feminine singular absolute". The full codebook
-   is in /tmp/opencode/genesis-prep/01-wlc-morph-codebook.md; the tables
-   here were verified against the actual distribution of morph codes in
+   is the WLC/CCAT morphology codebook (see the WLC distribution docs); the
+   tables here were verified against the actual distribution of morph codes in
    bible-db.sqlite (WLC source, ~300k word tokens).
 """
 

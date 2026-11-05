@@ -84,4 +84,4 @@ Blessed are the meek (literally "the bridled ones" — πraύς, from πra- + a�
 ---
 
 **Analysis completed by**: Peaches (4K Bible Translation Harness)
-**Review status**: Corrected — πraύς (g4239) meaning updated from "gentle/soft" to "strength under control" (Michael Howard review, 2026-06-24)
+**Review status**: Corrected — πraύς (g4239) meaning updated from "gentle/soft" to "strength under control" (human review, 2026-06-24)

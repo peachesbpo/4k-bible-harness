@@ -95,7 +95,7 @@ def is_ca_rechecked(rd: Path, run_id: str, v: dict) -> bool:
 
 
 def _run_tier(run_id: str) -> int:
-    # PRIORITY ORDER (Michael, 2026-10-02):
+    # PRIORITY ORDER (per directive, 2026-10-02):
     #   0: Genesis 12 runs (closest-to-present Genesis work)
     #   1: all old Matthew runs (23-28 + 5:39)
     #   2: canonical remainder (Genesis 1-11 circle-back etc.)

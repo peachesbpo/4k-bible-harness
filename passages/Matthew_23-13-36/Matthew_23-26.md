@@ -37,7 +37,7 @@ You blind (willfully blind — the blindness is moral, not physical; the Pharise
 
 2. **Blindness as Moral Choice**: The word τyφlé (blind) appears 50 times in the Strong's concordance — it's a common metaphor, but here it's singular and direct: "You blind Pharisee!" The blindness is moral, not physical — the Pharisee is blind to the inside, blind to the necessity of starting from within. It's a willful blindness, which is why the command to cleanse follows.
 
-3. **Subjunctive Humility**: The subjunctive γéνηtai ("might become") carries theological weight: interior purity is necessary but perhaps not sufficient for exterior beauty. Michael isn't promising that cleaning the inside guarantees a clean outside — he's saying that without interior purity, exterior cleanliness is impossible. The grammar itself encodes a theology of inner-directed virtue.
+3. **Subjunctive Humility**: The subjunctive γéνηtai ("might become") carries theological weight: interior purity is necessary but perhaps not sufficient for exterior beauty. Jesus isn't promising that cleaning the inside guarantees a clean outside — he's saying that without interior purity, exterior cleanliness is impossible. The grammar itself encodes a theology of inner-directed virtue.
 
 ---
 

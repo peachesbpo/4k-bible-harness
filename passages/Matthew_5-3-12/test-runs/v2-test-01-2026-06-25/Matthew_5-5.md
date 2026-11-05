@@ -114,4 +114,4 @@ Blessed are the meek (Greek πraύς — literally "mild, gentle," but carrying 
 **Test run**: v2-test-01 (2026-06-25)
 **Review status**: Draft — Fresh analysis with full etymology integration, awaiting review
 **Data sources**: fetch_verse.py --greek --esv --strongs --etymology (2026-06-25)
-**Previous version**: `../Matthew_5-5.md` (v1, 2026-06-24, corrected after Michael Howard review)
+**Previous version**: `../Matthew_5-5.md` (v1, 2026-06-24, corrected after human review)

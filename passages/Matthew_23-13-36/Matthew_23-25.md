@@ -64,7 +64,7 @@ Woe to you, scribes and Pharisees, hypocrites! For you cleanse (purify — the v
 | ἀkraisas | akrasias | 192 | N-GFS | Genitive feminine singular | "Self-indulgence/incontinence" — literally "lack of self-restraint"; only 2 occurrences |
 
 **Grammatical Observations**:
-- **Vocative triad**: The three nouns (scribes, Pharisees, hypocrites) are all in the vocative case — direct address, not description. Michael is calling out these groups by name, not merely labeling them.
+- **Vocative triad**: The three nouns (scribes, Pharisees, hypocrites) are all in the vocative case — direct address, not description. Jesus is calling out these groups by name, not merely labeling them.
 - **Correlative ἔξwθev...ἔσwθev δέ**: The contrast between outside and inside is structurally emphasized by the correlative adverbs and the adversative δέ ("however"). The ESV flattens this to a simple "but."
 - **ὅti (hoti) as "For"**: The conjunction ὅti introduces an explanatory clause — "For you cleanse..." — providing the justification for the "Woe." It's causal, not just a filler.
 
