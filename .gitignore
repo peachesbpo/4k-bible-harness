@@ -8,12 +8,13 @@ __pycache__/
 .pytest_cache/
 
 # Downloaded datasets (see scripts/download_data.py) + local Bible database
+# (patterns are slash-less so they also match the repo-root symlinks git sees as files)
 data/
-bible-api-data/
-bible-api-esv/
-bible-api-web/
-strongs-data/
-cross-refs/
+bible-api-data
+bible-api-esv
+bible-api-web
+strongs-data
+cross-refs
 strongs-greek-dictionary.js
 lsj-greek-lexicon.json
 *.sqlite
