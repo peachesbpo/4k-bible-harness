@@ -1,0 +1,65 @@
+{
+  "translations": {
+    "ESV": "English Standard Version",
+    "NASB": "New American Standard Bible",
+    "KJV": "King James Version"
+  },
+  "local_data_sources": {
+    "greek_nt": {
+      "path": "bible-api-data/bibles/grc-srgnt",
+      "description": "Solid Rock Greek New Testament, Scholar's Edition",
+      "source": "wldeh/bible-api (cloned locally, .git removed)",
+      "size": "37 MB, 8,223 verse JSON files, 27 books (NT only)"
+    },
+    "esv_english": {
+      "path": "bible-api-esv/bibles/en-asv",
+      "description": "American Standard Version of 1901 (ESV equivalent)",
+      "source": "wldeh/bible-api (cloned locally, .git removed)",
+      "size": "140 MB, 32,293 verse JSON files, 66 books (full Bible)"
+    },
+    "strongs_concordance": {
+      "path": "strongs-data/",
+      "description": "Interlinear OT and NT with Strong's numbers (word-level)",
+      "source": "tahmmee/interlinear_bibledata (downloaded bible.tar.gz, extracted)",
+      "size": "39 MB, 66 book JSON files with word-level Strong's numbers"
+    }
+  },
+  "bible_api_versions": {
+    "greek": "grc-srgnt",
+    "esv": "en-asv",
+    "kjv": "en-kjv",
+    "nasb": "en-US-asvbt"
+  },
+  "default_translation": "ESV",
+  "default_ot_translation": "ASV",
+  "output_dir": "passages",
+  "original_language_priority": ["Greek", "Hebrew", "Aramaic"],
+  "analysis_options": {
+    "include_strongs": true,
+    "include_parsing": true,
+    "include_lexical_range": true,
+    "include_cultural_context": true,
+    "include_cross_references": true
+  },
+  "output_options": {
+    "format": "results-first",
+    "structure": "granular",
+    "generate_summary": true,
+    "generate_verse_files": true,
+    "generate_md": true,
+    "generate_html": true,
+    "generate_pdf": true,
+    "html_theme": "dark",
+    "expanded_translation_style": "clean_english",
+    "expanded_translation_note_style": "parenthetical",
+    "pdf_engine": "weasyprint"
+  },
+  "output_sections_order": [
+    "diff_analysis",
+    "expanded_translation",
+    "baseline_translation",
+    "original_language_analysis",
+    "theological_insights",
+    "further_study"
+  ]
+}

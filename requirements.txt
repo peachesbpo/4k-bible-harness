@@ -1,0 +1,8 @@
+# 4K Bible Translation Harness — runtime deps
+# Core (no optional deps needed for retrieval/analysis/CLI)
+rich>=13.7.0
+jinja2>=3.1.0
+
+# Optional: PDF + styled HTML output
+markdown>=3.5
+weasyprint>=60.0

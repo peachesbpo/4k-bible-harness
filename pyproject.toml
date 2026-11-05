@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "4k-bible-harness"
+version = "0.1.0"
+description = "4K Bible Translation Harness — recover original-language nuance via subagent-driven verse analysis"
+requires-python = ">=3.10"
+dependencies = [
+    "rich>=13.7.0",
+    "jinja2>=3.1.0",
+]
+
+[project.optional-dependencies]
+pdf = ["markdown>=3.5", "weasyprint>=60.0"]
+dev = ["pytest>=7.0"]
+
+[project.scripts]
+harness = "harness.cli:main"
+
+[tool.setuptools]
+packages = ["harness"]

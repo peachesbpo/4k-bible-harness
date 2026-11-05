@@ -1,0 +1,21 @@
+# Auto-generated caches and run state
+.cache/
+runs/
+logs/
+__pycache__/
+*.egg-info/
+*.pyc
+.pytest_cache/
+
+# Downloaded datasets (see scripts/download_data.py) + local Bible database
+data/
+bible-api-data/
+bible-api-esv/
+bible-api-web/
+strongs-data/
+cross-refs/
+strongs-greek-dictionary.js
+lsj-greek-lexicon.json
+*.sqlite
+
+# Keep passages/ (legacy + repaired) tracked
