@@ -56,23 +56,28 @@ Deliberate config tweaks (logged, "trivial only"):
 | `harness/hebrew_text.py:14` | `The full codebook is in /tmp/opencode/genesis-prep/01-wlc-morph-codebook.md; the tables…` | `The full codebook is the WLC/CCAT morphology codebook (see the WLC distribution docs); the tables…` (absolute temp path → generic) |
 | old `README.md:324` | `Michael Howard` footer | resolved wholesale: file replaced by public README (`docs:` commit) |
 
-"Michaelius" note: zero hits in the dest tree; lexicon-derived allowed instances were never an issue here. "Peaches" analyst credits in passage files are the sanctioned author entity (decision A) and were kept.
+"Michaelius" note: zero hits in the **tracked** tree; one instance exists inside the downloaded LSJ dataset (`data/lsj-greek-lexicon.json`, entry στιχαοιδός cites "Michaelius", a real ancient Greek author) — explicitly allowed by the brief, and it is untracked, gitignored data, not repo content. "Peaches" analyst credits in passage files are the sanctioned author entity (decision A) and were kept.
 
 ## 4. Final grep-clean proof
 
-Command (dest repo root):
+Command over the **tracked** files (dest repo root):
 
 ```
-grep -rn -i -E "\b(michael|spea|mspea|peachbpo|callie|epps)\b|michaelius|/home/mspea" . --exclude-dir=.git
+git ls-files -z | xargs -0 grep -n -i -E "\b(michael|spea|mspea|peachbpo|callie|epps)\b|michaelius|/home/mspea"
 ```
 
-Output (entire tracked tree, after the README rewrite landed):
+Output — every remaining hit is a sanctioned credit/audit line:
 
 ```
-(no output — zero matches)
+CARVE_REPORT.md:…   (this report itself: scrub before→after entries + source path header)
+LICENSE:3:          Copyright (c) 2026 Michael Howard and Peaches
+README.md:62:       **Designed by Michael Howard · Built by Peaches**
 ```
 
-Method note: the brief's raw `spea` token matches the English words speak/speaker/speaking (~dozens of false positives in verse-analysis prose, e.g. "to speak vilely against"); word-boundary matching was used for the proof, and the raw broad pattern was also run and manually reviewed — its only non-speak* hit ever was the README footer above, removed by the public rewrite.
+- `LICENSE` copyright and the `README.md` author line are REQUIRED by the brief (steps 4 and 6); `CARVE_REPORT.md` is the scrub audit log — it quotes the removed text by design.
+- No `mspea`, `spea`, `peachbpo`, `callie`, `epps`, `michaelius`, or `/home/mspea` anywhere in tracked content.
+- Method note: the brief's raw `spea` token matches the English words speak/speaker/speaking (dozens of false positives in verse-analysis prose, e.g. "to speak vilely against"); word-boundary matching was used for the proof, and the broad raw pattern was also run and manually reviewed — its only non-speak* hits in the shipped content were the items scrubbed in §3 plus the README footer removed by the public rewrite.
+- Untracked, gitignored `data/` (downloaded datasets) contains incidental scriptural/upstream-metadata mentions (e.g., "Michael the archangel" in WEB/Strong's entries; LSJ's "Michaelius" citation; wldeh metadata "Kahunapule Michael Johnson" as the grc-srgnt archivist). Those are third-party dataset contents, not repo content.
 
 ## 5. Pytest result
 
@@ -119,3 +124,7 @@ e4ff0ac docs: correct test-count claim to measured reality (100 tests; 97 withou
 2. **WEB scope** — download mirrors the working repo (NT only, 27 books); OT English comes from ASV. If WEB-OT is ever wanted, extend the book list in `download_data.py`.
 3. **Suite count** — brief expected ~62 tests; actual is 100 (README/report state reality; PROJECT_STATUS.md's historical "62" line was left as a dated status snapshot).
 4. **Launch-day concerns** — decision F explicitly out of scope here.
+
+## 9. Source-repo integrity statement
+
+The working repo was treated as strictly read-only: every operation against it (ls/cat/grep/rsync-src/cp-src/sqlite3 with `mode=ro` URI/tar listing) was read-only; nothing was written, committed, staged, or stashed there. Pre-existing uncommitted workspace drift (e.g., `harness/greek_text.py` last modified Oct 5, 2026, and nightly log churn from the workspace's own automation) predates this task and was left exactly as found. This repo has **no git remote** and nothing was pushed.
