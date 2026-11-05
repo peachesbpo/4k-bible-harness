@@ -48,7 +48,7 @@ Each run produces a directory with per-verse `.md` analyses plus a `SUMMARY` in 
 
 ## Honest by design
 
-This harness is an aid for reading, not an oracle. What comes out the other end is highly dependent on the model quality. Models with more world knowledge are preferred — the harness lays the sources on the table, but the reading is only as good as the reader. The output is not presented as 100% accurate: the reviewer and claim-audit layers exist precisely to catch overreach, and they ship in this repo (`prompts/`, including the claim-audit spec) so you can tighten them further. The suite of 62 automated tests guards the validators, retrieval, purity checks, and run state.
+This harness is an aid for reading, not an oracle. What comes out the other end is highly dependent on the model quality. Models with more world knowledge are preferred — the harness lays the sources on the table, but the reading is only as good as the reader. The output is not presented as 100% accurate: the reviewer and claim-audit layers exist precisely to catch overreach, and they ship in this repo (`prompts/`, including the claim-audit spec) so you can tighten them further. The suite of 100 automated tests guards the validators, retrieval, purity checks, and run state (97 pass without the optional `bible-db.sqlite`; all 100 with it in place).
 
 ## Credits
 
